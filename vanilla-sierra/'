@@ -1,0 +1,189 @@
+body {
+	margin: 0;
+}
+
+nav {
+	background-color: #fffff5;
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	box-shadow: 0px 0px 20px gray;
+	position: fixed;
+	width: 100%;
+}
+
+.nav-left {
+	display: flex;
+}
+
+.nav-right {
+	display: flex;
+}
+
+.logo-container {
+	display: flex;
+	height: 80px;
+	content: url('../images/sierra-logo-clear.png')
+}
+
+.phonenumber {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.button-container {
+	display: flex;
+	align-items: stretch;
+}
+
+.nav-button {
+	display: flex;
+	align-items: center;
+	color: gray;
+	text-decoration: none;
+	background-color: transparent;
+	margin: 0px 10px 0px 20px;
+}
+
+
+.nav-button:hover {
+	color: #3d6b49;
+}
+
+.index-content {
+	display: flex;
+	flex-direction: column;
+	min-height: 1040px;
+}
+
+.index-banner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url('../images/mountains.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 70vh;
+}
+
+div.announce {
+	margin: 100px 100px;
+	padding: 30px 30px;
+	border-radius: 5px;
+	color: #3d6b49;
+	background-color: #fffff5;
+	max-width: 500px;
+	box-shadow: 0px 0px 20px gray;
+}
+
+a.announce-button {
+	background-color: #3d6b49;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+a.announce-button:hover {
+	background-color: #83af80;
+}
+
+div.testimonials {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+div.testimonials > h1 {
+	color: #3d6b49;
+}
+
+div.testimonial {
+	padding: 30px 30px;
+}
+
+div.testimonial > h4 {
+	text-align: right;
+}
+
+div.who-content {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+div.what-content {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1.who {
+	margin: 8rem 0 0 0;
+}
+
+p.who {
+	margin: 0rem 8rem 0rem 8rem;
+	border-radius: 10px;
+	padding: 28px;
+}
+
+div.owner {
+	display: flex;
+	align-items: center;
+	width: 100vw;
+}
+
+img.owner-photo {
+	height: 70vh;
+	margin: 0 0 0 15vw;
+}
+
+div.name-wrap {
+	display: flex;
+	align-items: center;
+}
+
+div.contact-info {
+	padding: 100px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1.what {
+	margin: 8rem 0 0 0;
+}
+
+p.what {
+	margin: 0rem 8rem 0rem 8rem;
+	border-radius: 10px;
+	padding: 28px;
+}
+
+div.tech-grid {
+	margin:  0rem 10rem;
+	display: grid;
+	grid-column-gap: 80px;
+	grid-row-gap: 80px;
+	grid-template-rows: auto;
+	grid-template-columns: 20rem 20rem;
+	justify-content: flex-start;
+}
+
+img.tech {
+	object-fit: cover;
+	width:100%;
+	max-height:100%;
+}
+
+footer {
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 10px;
+	bottom: 0;
+	width: 100%;
+	font-size: 8px;
+}
